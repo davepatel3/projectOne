@@ -1,0 +1,8 @@
+./src/maze.cpp:5:6: error: redefinition of ‘void cs251::maze::initialize(size_t, size_t, size_t, unsigned int)’
+ void maze::initialize(const size_t dimX, const size_t dimY, const size_t dimZ, unsigned seed)
+      ^
+In file included from ./src/maze.cpp:1:0:
+./include/maze.hpp:106:10: note: ‘void cs251::maze::initialize(size_t, size_t, size_t, unsigned int)’ previously defined here
+     void maze::initialize(const size_t dimX, const size_t dimY, const size_t dimZ, unsigned seed)
+          ^
+Failed to build ./build/maze-app.
